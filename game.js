@@ -81,7 +81,7 @@ function checkAnswer(currentLevel) {
 
 
 
-    $("h1").text("Game Over, Press A Key to Restart");
+    $("h1").text("Game Over, Press HERE or 'A' Key to Restart");
 
     $("body").addClass("game-over");
     playSound("wrong");
