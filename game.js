@@ -24,6 +24,19 @@ $(document).keypress(function(event) {
   }
 });
 
+$("h1").click(function(event){
+countPress--;
+
+if(countPress===0)
+{
+  keyPress = true;
+  detectButton();
+  console.log("click");
+}
+else{
+  keyPress = false;
+}
+});
 
 function detectButton() {
 
